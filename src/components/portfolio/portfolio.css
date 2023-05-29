@@ -1,0 +1,25 @@
+.portfolio__contaiiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+/* ========================Media Queries for Medium Device==================== */
+
+@media screen and (max-width: 1024px) {
+  .portfolio__contaiiner {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ========================Media Queries for Small Device==================== */
+
+@media screen and (max-width: 600px) {
+  .portfolio__contaiiner {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+}
