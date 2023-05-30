@@ -13,25 +13,25 @@ const footer = () => {
           Mounir
         </a>
         <ul>
-          <li>
+          <li className='footer-link'>
             <a href='#'>Home</a>
           </li>
-          <li>
+          <li className='footer-link'>
             <a href='#About'>About</a>
           </li>
-          <li>
+          <li className='footer-link'>
             <a href='#Experience'>Experience</a>
           </li>
-          <li>
+          <li className='footer-link'>
             <a href='#Services'>Services</a>
           </li>
-          <li>
+          <li className='footer-link'>
             <a href='#Portfolio'>Projects</a>
           </li>
-          <li>
+          <li className='footer-link'>
             <a href='#Testimonials'>Testimonials</a>
           </li>
-          <li>
+          <li className='footer-link'>
             <a href='#Contact'>Contact</a>
           </li>
         </ul>
